@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiConfitec.Application\ApiConfitec.Application.csproj" />
+    <ProjectReference Include="..\ApiConfitec.Domain.Core\ApiConfitec.Domain.Core.csproj" />
+    <ProjectReference Include="..\ApiConfitec.Domain.Services\ApiConfitec.Domain.Services.csproj" />
+    <ProjectReference Include="..\ApiConfitec.Domain\ApiConfitec.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
