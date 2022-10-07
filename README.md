@@ -24,7 +24,7 @@ Caso não seja instalado automaticamente, siga esse passo a passo -> https://lea
 Instale o SqlServer 2019 e Management Studio
 
 ## Configuração
-No arquivo appsettings.json configure sua string de conexão.
+No arquivo appsettings.json configure sua string de conexão. (não é recomendado deixar esse arquivo no git, mas não tem nada prejudicial, então não vejo problema.)
 
 Server = servidor do banco de dados;
 
